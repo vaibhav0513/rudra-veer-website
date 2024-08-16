@@ -3,8 +3,7 @@ import { AiFillMessage } from "react-icons/ai";
 import { RiMessage3Fill } from "react-icons/ri";
 import { FaPhone } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
-import {motion} from 'framer-motion' 
-import { fadeIn } from '../../utilis/animationVariants';
+
 
 const Contact = () => {
   const [name, setName] = useState("")
@@ -34,12 +33,7 @@ const Contact = () => {
 
   return (
     <div className='bg-para flex items-center justify-center py-28 px-8' id='contact'>
-      <motion.div 
-        variants={fadeIn('down',0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{once: false, amount: 0.7}}
-        className='container mx-auto'>
+      <div className='container mx-auto'>
         <div className='md:w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-12 gap-8 text-white'>
 
            {/* left side  */}
@@ -91,7 +85,7 @@ const Contact = () => {
               </form>
             </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Show Modal  */}
       {

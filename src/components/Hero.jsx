@@ -8,7 +8,7 @@ import heroImg from '../assets/hero.png'
 const Hero = () => {
   return (
     <section id='home' className='bg-heroBg text-white flex items-center pt-28 md:h-screen h-auto'>
- <div className='container mx-auto flex flex-col md:flex-row-reverse items-center justify-between p-8 overflow-hidden gap-12 h-auto '>
+      <div className='container mx-auto flex flex-col md:flex-row-reverse items-center justify-between p-8 overflow-hidden gap-12 h-auto '>
     
     {/* Left Side (Content) */}
     <motion.div 

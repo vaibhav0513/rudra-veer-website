@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import hero from "./hero.jpg";
+import hero1 from "./hero1.jpg";
 import white_arrow from "./white_arrow.png";
 import dark_arrow from "./dark_arrow.png";
 import money from "./money.png";
@@ -34,7 +34,7 @@ import gallery_4 from "./gallery_4.png";
 
 export const assets = {
   logo,
-  hero,
+  hero1,
   white_arrow,
   dark_arrow,
   money,

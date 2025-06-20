@@ -13,7 +13,7 @@ import WorkingStep from "./components/WorkingStep";
 function App() {
   return (
     <div className="font-primary overflow-x-hidden">
-      <Modal/>
+      {/* <Modal/> */}
       <Navbar />
       <Hero/>
       <OurWork/>
